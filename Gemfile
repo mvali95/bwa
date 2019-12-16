@@ -1,40 +1,40 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.11.0'
 end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 5.0.5'
+  gem 'coffee-rails', '~> 4.1.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '>= 2.7.2'
 end
 
 gem 'therubyracer'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'bcrypt-ruby', '3.0.1'
-gem 'faker'
-gem 'will_paginate'
-gem 'bootstrap-will_paginate'
+gem 'faker', '>= 1.0.1'
+gem 'will_paginate', '>= 3.0.5'
+gem 'bootstrap-will_paginate', '>= 0.0.7'
 gem 'rdiscount'
-gem 'bootstrap-sass'
-gem 'twitter-bootstrap-rails'
-gem 'haml'
+gem 'bootstrap-sass', '>= 3.4.0'
+gem 'twitter-bootstrap-rails', '>= 3.2.0'
+gem 'haml', '>= 5.0.0'
 
 
 group :test do
-  gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'capybara', '>= 1.1.2'
+  gem 'factory_girl_rails', '>= 4.0.0'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
