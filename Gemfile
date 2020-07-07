@@ -21,7 +21,7 @@ group :assets do
 end
 
 gem 'therubyracer'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker'
 gem 'will_paginate'
